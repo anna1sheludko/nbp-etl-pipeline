@@ -1,0 +1,17 @@
+database:
+  host: localhost
+  port: 5433
+  name: nbp_db
+  user: nbp_user
+  password: ""
+
+api:
+  base_url: "https://api.nbp.pl/api"
+  table: "A"
+  timeout: 10
+  retry_attempts: 3
+  backfill_days: 30
+
+paths:
+  data_raw: data/raw
+  logs: logs   
